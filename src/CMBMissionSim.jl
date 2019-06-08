@@ -1,5 +1,8 @@
 module CMBMissionSim
 
-greet() = print("Hello World!")
+include("quaternions.jl")
+include("genpointings.jl")
+include("dipole.jl")
+include("beams.jl")
 
 end # module
