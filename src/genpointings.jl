@@ -1,7 +1,6 @@
 import Printf
 import JSON
 import Healpix
-import Quaternions
 import LinearAlgebra: dot, ×
 import Base: show
 
