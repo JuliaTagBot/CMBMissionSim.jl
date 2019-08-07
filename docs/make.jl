@@ -13,9 +13,8 @@ makedocs(modules = [CMBMissionSim],
         "Introduction" => "index.md",
         "Pointing generation" => "genpointings.md"
     ],
-    repo="https://github.com/ziotom78/CMBMissionSim.jl/blob/{commit}{path}#L{line}",
-    authors="Maurizio Tomasi",
-    assets=String[])
+    repo = "https://github.com/ziotom78/CMBMissionSim.jl/blob/{commit}{path}#L{line}",
+    authors = "Maurizio Tomasi")
 
 deploydocs(repo = "github.com/lspestrip/CMBMissionSim.jl.git",
 )
