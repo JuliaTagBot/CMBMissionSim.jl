@@ -6,10 +6,6 @@ using Test
     include("test_quaternions.jl")
 end
 
-@testset "Run-length arrays" begin
-    include("test_rlarrays.jl")
-end
-
 @testset "Pointing generation" begin
     include("test_genpointings.jl")
 end
